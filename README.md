@@ -1,6 +1,8 @@
-# vueapp
+# VueApp - Heyu Landing Page 
 
 > A Vue.js project
+
+![Heyu](/images/HeyU-Landing-Page.png)
 
 ## Build Setup
 
