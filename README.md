@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-![Heyu](/images/HeyU-Landing-Page.png)
+![Heyu](HeyU-Landing-Page.png)
 
 ## Build Setup
 
