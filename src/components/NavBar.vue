@@ -36,15 +36,16 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-    /* .navbar-menu {
-        padding: 10px 0px;
-    } */
+    .navbar-menu {
+        padding: 15px 0px;
+    }
 
     .navbar-fixed {
         position: fixed;
         top: 0px;
         left: 0px;
         width: 100%;
+        z-index: 9;
     }
 
     .brand-logo {
@@ -54,7 +55,7 @@
         padding: 10px 15px;
         font-weight: 800;
         color: #fff;
-        color: #000;
+    
         font-size: 30px;
     }
 
@@ -71,11 +72,11 @@
     .navbar__link {
         font-size: 14px;
         color: #fff;
-        color: #000;
+     
         font-family: "Lato-Regular",sans-serif;
         padding: 23px 15px; 
         text-transform: uppercase;
-        
+        position: relative;
 
     }
 
