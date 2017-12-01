@@ -34,6 +34,7 @@ export default {
         margin: 0px;
         padding: 0px;
         font-family: "Lato-Regular",sans-serif;
+        
     }
     /* main {
         margin-top: 62px;

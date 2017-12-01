@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'Button',
+    name: 'Button',
 }
 </script>
 
@@ -14,6 +14,7 @@ export default {
         border-radius: 30px;
         padding: 16px 64px;
         font-weight: 600;
+        
     }
 
     .btn--white {

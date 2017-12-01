@@ -1,13 +1,17 @@
 <template>
-
+    
     <section class="section-banner">
+        
         <div class="container">
             <div class="content content-banner clearfix">
                 <div class="col-6">
+                    <p>name is: {{message}}</p>
+           
                     <h1 class="title title--white title--lg">{{title}}</h1>
                     <p class="info info--white">{{info}}</p>
                     <Button/>
                 </div>
+                
                 <div class="col-6">
                     <img src="../assets/banner-image.png" class="img-responsive banner-img" alt="Banner Image">
                 </div>
@@ -30,6 +34,7 @@
             return {
                title: 'Simple, safe & beautiful.',
                info: 'With HeyU, you will get fast, simple, secure messaging!',
+               message: '',
             }
         }
     }
