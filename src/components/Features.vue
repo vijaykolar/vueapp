@@ -1,7 +1,10 @@
 <template>
     <section class="section section-features">
         <div class="container">
+            <div class="features-wrapper">
 
+                
+            </div>
         </div>
     </section>
 </template>
@@ -9,7 +12,8 @@
 
 <script>
 export default {
-    name: 'Features'
+    name: 'Features',
+   
 }
 </script>
 
@@ -29,5 +33,9 @@ export default {
         /* z-index: -1; */
         background-color: #fff;
 
+    }
+
+    .features-wrapper {
+        position: relative;
     }
 </style>
