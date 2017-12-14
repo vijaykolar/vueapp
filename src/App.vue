@@ -29,12 +29,16 @@ export default {
 </script>
 
 <style>
+
+    :root {
+        
+    }
     body,
     body * {
         margin: 0px;
         padding: 0px;
         font-family: "Lato-Regular",sans-serif;
-        
+
     }
     /* main {
         margin-top: 62px;
@@ -100,11 +104,17 @@ export default {
     } */
     .title {
         font-weight: 700;
+        font-family: "Lato-Regular",sans-serif;
 
     }
 
     .title--white {
         color: #fff;
+        /* font-weight: 700; */
+    }
+
+    .title--black {
+        color: #363636;
     }
 
     .title--lg {
@@ -114,11 +124,16 @@ export default {
     .info {
         font-size: 18px;
         font-family: "Lato-Regular",sans-serif;
+        line-height: 28px;
 
     }
 
     .info--white {
         color: #fff;
+    }
+
+    .info--gray {
+        color: #808080;
     }
 
 </style>
