@@ -8,7 +8,8 @@
         <main>
             <Banner/>
             <Features/>
-
+            <WhatPeopleSay/>
+            
         </main>
     </div>
 </template>
@@ -17,13 +18,16 @@
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import Features from './components/Features';
+import WhatPeopleSay from './components/WhatPeopleSay';
 
 export default {
     name: 'app',
     components: {
         NavBar,
         Banner,
-        Features
+        Features,
+        WhatPeopleSay
+
     }
 }
 </script>
@@ -31,7 +35,7 @@ export default {
 <style>
 
     :root {
-        
+
     }
     body,
     body * {
@@ -78,6 +82,9 @@ export default {
     .col-6 {
         width: 50%;
         float: left;
+    }
+    .text-center {
+        text-align: center;
     }
 
     .clearfix:after, .clearfix:before {
