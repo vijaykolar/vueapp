@@ -79,9 +79,19 @@ export default {
         }
     }
 
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
     .col-6 {
         width: 50%;
         float: left;
+    }
+    .col-4 {
+        width: 30.3333%;
+        float: left;
+        padding: 0 15px;
+
     }
     .text-center {
         text-align: center;
