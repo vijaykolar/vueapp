@@ -9,7 +9,8 @@
             <Banner/>
             <Features/>
             <WhatPeopleSay/>
-            
+            <HighLigth/>
+
         </main>
     </div>
 </template>
@@ -19,6 +20,7 @@ import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import Features from './components/Features';
 import WhatPeopleSay from './components/WhatPeopleSay';
+import HighLigth from './components/HighLigth';
 
 export default {
     name: 'app',
@@ -26,7 +28,8 @@ export default {
         NavBar,
         Banner,
         Features,
-        WhatPeopleSay
+        WhatPeopleSay,
+        HighLigth
 
     }
 }
@@ -42,6 +45,7 @@ export default {
         margin: 0px;
         padding: 0px;
         font-family: "Lato-Regular",sans-serif;
+
 
     }
     /* main {
@@ -122,6 +126,7 @@ export default {
     .title {
         font-weight: 700;
         font-family: "Lato-Regular",sans-serif;
+        
 
     }
 
