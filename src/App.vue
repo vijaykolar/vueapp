@@ -10,6 +10,7 @@
             <Features/>
             <WhatPeopleSay/>
             <HighLigth/>
+            <Subscription/>
 
         </main>
     </div>
@@ -21,6 +22,7 @@ import Banner from './components/Banner';
 import Features from './components/Features';
 import WhatPeopleSay from './components/WhatPeopleSay';
 import HighLigth from './components/HighLigth';
+import Subscription from './components/Subscription';
 
 export default {
     name: 'app',
@@ -29,7 +31,8 @@ export default {
         Banner,
         Features,
         WhatPeopleSay,
-        HighLigth
+        HighLigth,
+        Subscription
 
     }
 }
@@ -126,7 +129,7 @@ export default {
     .title {
         font-weight: 700;
         font-family: "Lato-Regular",sans-serif;
-        
+
 
     }
 
