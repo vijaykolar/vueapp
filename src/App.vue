@@ -11,6 +11,7 @@
             <WhatPeopleSay/>
             <HighLigth/>
             <Subscription/>
+            <Download/>
 
         </main>
     </div>
@@ -23,6 +24,7 @@ import Features from './components/Features';
 import WhatPeopleSay from './components/WhatPeopleSay';
 import HighLigth from './components/HighLigth';
 import Subscription from './components/Subscription';
+import Download from './components/Download';
 
 export default {
     name: 'app',
@@ -32,7 +34,8 @@ export default {
         Features,
         WhatPeopleSay,
         HighLigth,
-        Subscription
+        Subscription,
+        Download
 
     }
 }
