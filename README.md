@@ -4,7 +4,7 @@
 
 ![Heyu](HeyU-Landing-Page.png)
 
-# Download the PSD File here (https://symu.co/freebies/templates-4/heyu-psd-template/)
+Download the PSD File [here](https://symu.co/freebies/templates-4/heyu-psd-template/)
 
 ## Build Setup
 
