@@ -24,11 +24,11 @@
                         <img src="../assets/chat-2.png" :alt="alt"/>
                     </div>
 
-                    
+
                 </div>
-               
-               
-               
+
+
+
             </div>
         </div>
     </section>
@@ -42,7 +42,7 @@ export default {
     data() {
         return {
 
-            
+
             alt: "Chat Message",
             message: "Easy Messaging",
             message2: "Keep in touch",
@@ -50,7 +50,7 @@ export default {
 
         }
     }
-   
+
 }
 
 // new Vue({
@@ -86,14 +86,14 @@ export default {
         position: relative;
     }
     .chat-message-info .info {
-         
+
         margin-top: 30px;
-        
+
     }
      .chat-message-info {
-         
+
         margin-top: 150px;
-        
+
     }
 
     .chat-list {
