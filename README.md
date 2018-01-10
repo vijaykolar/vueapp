@@ -1,6 +1,6 @@
 # VueApp - Heyu Landing Page
 
-> A Vue.js project
+> A Vue.js project using Vue-CLI
 
 ![Heyu](HeyU-Landing-Page.png)
 
