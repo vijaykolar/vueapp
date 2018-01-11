@@ -19,6 +19,7 @@ export default {
 
     name: 'Footer',
     data() {
+        
         return {
             linkItem: ['about','faq','support','blog','Download']
         }
